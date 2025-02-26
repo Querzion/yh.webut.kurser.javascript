@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Javascript Course in Webdevelopment.">
+    
+    <link rel="shortcut icon" href="./images/q-icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
+    
+    <title>Javascript - Övning 1 - Gissnings Spel</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div id="guess-box" class="guess-box">
+
+            <div class="content">
+            
+                <h1>Guess the number!</h1>
+                <h2>( A number between 0-100 )</h2>
+            
+                <form id="guess-form" class="guess-form">
+                    <input type="text" id="guess-input" class="guess-input" placeholder="Write your guess here...">
+                    <button class="btn">Send Guess</button>
+                </form>
+
+                <ul id="guess-field" class="guess-field">
+                    
+                </ul>
+            
+                <div id="hint-box" class="hint-box hidden">
+                    <h3>Hint:</h3>
+                    <div id="hint-field" class="hint-field">
+                        <p id="low" class="message">SORRY! <br /> THE GUESS IS <span>TOO LOW</span>. <br /> TRY AGAIN.</p>
+                        <p id="high" class="message">SORRY! <br /> THE GUESS IS <span>TOO HIGH</span>. <br /> TRY AGAIN.</p>
+                        <p id="correct" class="message"><span>CONGRATULATIONS!</span> <br /> YOU GUESSED THE RIGHT NUMBER!</p>
+                    </div>
+                </div>
+            
+            </div>
+        
+        </div>
+
+    </div>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>

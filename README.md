@@ -1,2 +1,2 @@
 # yh.webut.kurser.javascript
-Empty for the time being.
+Folders copied from the yh.webut.kurser repository.
